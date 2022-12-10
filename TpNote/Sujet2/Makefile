@@ -35,7 +35,7 @@ save :
 restore :
 	$(RT)
 .PHONY : prog #permet d'exécuter la commande 'prog' meme si un fichier existe
-prog : # le '@' empeche l'affichage de la commande sur le terminaleù
+prog : # le '@' empeche l'affichage de la commande sur le terminal
 	@$(PROG)
 
 help :
